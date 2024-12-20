@@ -1,0 +1,130 @@
+body {
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    font-family: sans-serif;
+}
+.container {
+    background: rgba(76, 175, 80, 0.1);
+    padding: 20px;
+    box-shadow: 10px;
+    
+}
+.container h2 {
+    text-align: center;
+}
+.btn {
+    color: white;
+}
+
+#navbar{
+    background-color: blue;
+    padding: 10px;
+}
+#navbar ul{
+    text-align: center;
+}
+#navbar li{
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#navbar li a{
+    color: whitesmoke;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+}
+#navbar li a:hover{
+    background-color: whitesmoke;
+    color: gray;
+    text-decoration: none;
+}
+#contact{
+    line-height: 1.8em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+   
+    width: 30%;
+    padding: 10px;
+    
+    
+}
+#contact h2{
+    font-size: 2.6em;
+}
+#contact #name{
+    width: 100%;
+}
+#contact #email{
+    width: 100%;
+}
+#contact textarea{
+    width: 100%;
+}
+#contact label{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+#banner{
+    background-image: url(background2.png);
+    background-position: bottom center;
+    background-size: cover;
+    min-height: 600px;
+    margin: 0;
+}
+#banner h1{
+    color: white;
+    font-size: 5em;
+    margin-top: 0;
+    padding-top: 80px;
+    text-align: center;
+    text-shadow: 1px 1px gray;
+
+}
+#about{
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+    width: 100%;
+    background-image: url(white\ background.png);
+    color: black;
+
+}
+#about h2{
+    font-size: 2.6em;
+}
+#about p{
+    line-height: 1.8em;
+    text-align: left;
+}
+#interests{
+    background: black;
+    color: white;
+    padding: 10px;
+}
+#interests h2{
+    font-size: 2.6em;
+}
+#interests .row{
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+    width: 70%;
+}
+#interests .item{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+
+}
+#interests .item h3{
+    font-size: 2em;
+    text-align: center;
+}
+#interests .item p{
+    line-height: 1.8em;
+    text-align: center;
+}
